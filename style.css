@@ -1,0 +1,219 @@
+body{
+    background: linear-gradient(#1cd8d2, #93edc7);
+    
+}
+
+
+.main{ 
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    
+    
+    /* align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex: none; */
+
+}
+.table{
+    
+    display: inline-block;
+    
+    z-index: 5;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid black;
+    border-radius: 15px;
+    /* background-color: darkgreen; */
+    
+    background-image: url('Wood-Pattern-2.jpg');
+    /* background-image: url("/blackjack\ app/"); */
+    
+    max-width: max-content;
+    max-height: max-content;
+    margin: auto;
+    padding: 50px;
+    
+}
+
+
+
+.background{
+    width: 1200px;
+    padding: 0%;
+    margin: 0%;
+    border: 0ch;
+    border: 2px solid black;
+    
+    
+}
+
+.green {
+    background-image: url('media/casino\ background.jpg');
+    background-size:100% 100%;
+    width: 1200px;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+.dealerHand{
+   
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 20px;
+    
+    
+    
+   }
+
+.player{
+   
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    size: 500%;
+    
+    
+}
+
+img {
+    height: 220px;
+}
+
+.hold{
+    size: 220px;
+
+}
+
+
+
+
+/* CSS */
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+.playerDiv {
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    justify-items: baseline;
+    margin: 0%;
+    align-items: baseline;
+    align-content: space-between;
+    justify-content: space-around;
+    padding: 0%;
+    color: white;
+}
+
+.total{
+    margin: 0;
+    
+    
+}
+
+.dealerDiv {
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    justify-items: baseline;
+    margin: 0%;
+    align-items: baseline;
+    align-content: space-between;
+    justify-content: space-around;
+    padding: 0%;
+    color: white;
+    margin-top: 70px;
+
+}
+
+.num {
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.button-37 {
+    background-image: linear-gradient(92.88deg, #f80404 9.16%, #fc0909 43.89%, #f52004 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 2.5rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+   
+  }
+  
+  .button-37:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+  }
+
+  @media (min-width: 768px) {
+    .button-37 {
+      padding: 0 2.6rem;
+    }
+
+  }
